@@ -1,0 +1,78 @@
+body{
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+.signup-box{
+    width: 380px;
+    height: 625px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    margin-top: 30px;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+     display: flex;
+     margin-top: 20px;
+     font-size: 18px;
+}
+form input{
+    width: 300px;
+    padding: 8px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+    outline: none;
+}
+input[type='submit']{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+p{
+text-align: center;
+padding-top: 20px;
+font-size: 15px;
+}
+.para2{
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    margin-top: -20px;
+}
+.loginbox{
+    width: 400px;
+    height: 370px;
+    margin: auto;
+    border-radius: 3px;
+    background-color:lightblue;
+    margin-top: 20px;
+    
+}
+.para2{
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    margin-top: -10;
+}
+.para2 a{
+    color: royalblue;
+}

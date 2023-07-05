@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+/* Header Starts Here */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 40px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+}
+#pic{
+  height: 80px;
+  width: 90px;
+}
+#pics{
+  height: 70px;
+  width:205px ;
+}
+#picz{
+  height: 100px;
+  width: 120px;
+ 
+}
+
+/*NAVIGATION*/
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600px;
+  color: black;
+  transition: 0.3 ease;
+  font-family:'Trebuchet MS';
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.apply_box {
+  max-width: 600px;
+  height: 700px;
+  padding: 40px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 70px;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  font-family:system-ui;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40PX;
+}
+
+.form_container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline-color: red;
+}
+
+.button_container {
+  display: flex;
+
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+button {
+  background-color: red;
+  border: transparent solid 2px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+}
+button:hover {
+  background-color: #ccc;
+  border: 2px solid rgba(16, 3, 3, 0.53);
+  color: black;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.textarea_control {
+  grid-column: 2 / span 2;
+}
+.textarea_control textarea {
+  width: 100%;
+}
+
+  .textarea_control {
+    grid-column: 1 / span 1;
+  }
+} ;
